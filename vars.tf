@@ -10,7 +10,7 @@ variable "instance_type" {
 
 variable "ami" {
   description = "The AMI Terraform deploys"
-  default     = "ami-0c55b159cbfafe1f0"
+  default     = "ami-00874d747dde814fa"
 }
 
 variable "key_name" {
