@@ -23,3 +23,11 @@ variable "instance_name" {
   description = "The name Terraform deploys"
   default     = "terraform"
 }
+
+variable "subnet_id" {
+  default     = "subnet-012d7c130575bf0f1"
+}
+
+variable "vpc_security_group_ids" {
+  default     = "sg-0a015e7a7b4809533"
+}
